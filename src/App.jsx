@@ -6,11 +6,12 @@ import { ExperienciaPage } from "./pages/ExperienciaPage";
 import { PortafolioPage } from "./pages/PortafolioPage";
 import { ContactoPage } from "./pages/ContactoPage";
 
+
 function App() {
   return (
     <>
       <Navbar />
-      <section id="inicio">
+      <section  id="inicio">
         <InicioPage />
       </section>
       <section id="perfil">
