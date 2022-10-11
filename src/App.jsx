@@ -1,10 +1,12 @@
 import Navbar from "./components/Navbar";
 import { InicioPage } from "./pages/InicioPage";
 import { PerfilPage } from "./pages/PerfilPage";
-import { EstudiosPage } from "./pages/EstudiosPage";
-import { ExperienciaPage } from "./pages/ExperienciaPage";
-import { PortafolioPage } from "./pages/PortafolioPage";
+import { ExperienciePage } from "./pages/ExperiencePage"; 
+import { PortafolioPage } from "./pages/ProjectsPage"; 
 import { ContactoPage } from "./pages/ContactoPage";
+import {StudiesPage} from "./pages/StudiesPage"
+
+
 
 
 function App() {
@@ -18,10 +20,10 @@ function App() {
         <PerfilPage />
       </section>
       <section id="estudios">
-        <EstudiosPage />
+        <StudiesPage />
       </section>
       <section id="experiencia">
-        <ExperienciaPage />
+        <ExperienciePage />
       </section>
       <section id="portafolio">
         <PortafolioPage />

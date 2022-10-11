@@ -6,12 +6,12 @@
 /* :root {
   background-color: #ccc;
 } */
-/* *{
+*{
   background-attachment: fixed;
   background-image: url('./Images/Background_Inicio.png') ;
   width: 100%;
   background-size: cover;
-} */
+}
 
 #InicioContainer{
   padding-left: 600px;
