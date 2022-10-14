@@ -1,33 +1,36 @@
 import Navbar from "./components/Navbar";
 import { InicioPage } from "./pages/InicioPage";
 import { PerfilPage } from "./pages/PerfilPage";
-import { EstudiosPage } from "./pages/EstudiosPage";
-import { ExperienciaPage } from "./pages/ExperienciaPage";
-import { PortafolioPage } from "./pages/PortafolioPage";
+import { PortafolioPage } from "./pages/ProjectsPage"; 
 import { ContactoPage } from "./pages/ContactoPage";
+import {StudiesPage} from "./pages/StudiesPage"
+import { ExperiencePage } from "./pages/ExperiencePage";
+
+
+
 
 function App() {
   return (
     <>
       <Navbar />
-      <section id="inicio">
+      <div className="backdrop-blur-lg" id="page1">
         <InicioPage />
-      </section>
-      <section id="perfil">
+      </div>
+      <div className="backdrop-blur-lg" id="page2">
         <PerfilPage />
-      </section>
-      <section id="estudios">
-        <EstudiosPage />
-      </section>
-      <section id="experiencia">
-        <ExperienciaPage />
-      </section>
-      <section id="portafolio">
+      </div>
+      <div className="backdrop-blur-lg" id="page3">
+        <StudiesPage />
+      </div>
+      <div className="backdrop-blur-lg" id="page4">
+        <ExperiencePage/>
+      </div>
+      <div className="backdrop-blur-lg" id="page5">
         <PortafolioPage />
-      </section>
-      <section id="contacto">
+      </div>
+      <div>
         <ContactoPage />
-      </section>
+      </div>
     </>
   );
 }

@@ -1,10 +1,33 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
-:root {
+
+/* :root {
   background-color: #ccc;
+} */
+body{
+  background-attachment: fixed;
+  background-image: url('./Images/Background_Inicio.png') ;
+  width: 100%;
+  background-size: cover;
+  font-family: 'Kalam', cursive;
 }
+
+#InicioContainer{
+  padding-left: 600px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#Perfil{
+  
+  text-align: center;
+  color: white
+}
+
 
 section {
   display: flex;
@@ -12,17 +35,21 @@ section {
   height: 100vh;
 }
 
-.nav {
+.nav { 
   display: flex;
   align-items: center;
   position: -webkit-sticky;
   position: sticky;
   top: -5px;
-  z-index: 2;
-  height: 70px;
+  z-index: 1;
+  height: 100px;
   min-height: 70px;
-  width: calc(100% - 1.5rem);
-  background-color: #fff;
+  width: 100%;
+  color: #0FBFBF;
+
+  /* background-image: url('./Images/Background_Inicio.png') ; */
+  background-size: cover;
+  background-position: top;
   padding: 0 1rem;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 }
@@ -59,4 +86,14 @@ ul {
 
 a {
   cursor: pointer;
+}
+.Button_Menu{
+  color: #0FBFBF;
+}
+#Icono{
+  padding-left: 550px;
+  padding-bottom: 100px;
+}
+.Opciones{
+  color: #0FBFBF;
 }
