@@ -7,11 +7,11 @@ export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="flex flex-wrap items-center justify-between px-2 py-3 nav">
+      <nav className="flex flex-wrap items-center justify-between px-2 py-3 nav backdrop-blur-md border-white border-b-[0.1rem] border-opacity-10">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
-              className="text-xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text- "
+              className="text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text- "
               href="/"
             >
               ANDRES
@@ -44,7 +44,7 @@ export default function Navbar() {
               <Link
                 smooth
                 spy
-                to="perfil"
+                to="page1"
               >
                 <span className="ml-2 ">
                   About
@@ -53,16 +53,7 @@ export default function Navbar() {
               <Link
                 smooth
                 spy
-                to="estudios"
-              >
-                <span className="ml-2 ">
-                  Projects
-                </span>
-              </Link>
-              <Link
-                smooth
-                spy
-                to="experiencia"
+                to="page2"
               >
                 <span className="ml-2 ">
                   Studies
@@ -71,16 +62,26 @@ export default function Navbar() {
               <Link
                 smooth
                 spy
-                to="portafolio"
+                to="page3"
               >
                 <span className="ml-2 ">
                   Experience
                 </span>
               </Link>
+
               <Link
                 smooth
                 spy
-                to="contacto"
+                to="page4"
+              >
+                <span className="ml-2 ">
+                  Projects
+                </span>
+              </Link>
+              <Link
+                smooth
+                spy
+                to="page5"
               >
                 <span className="ml-2 ">
                   Contact

@@ -1,16 +1,18 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
 
 /* :root {
   background-color: #ccc;
 } */
-*{
+body{
   background-attachment: fixed;
   background-image: url('./Images/Background_Inicio.png') ;
   width: 100%;
   background-size: cover;
+  font-family: 'Kalam', cursive;
 }
 
 #InicioContainer{
